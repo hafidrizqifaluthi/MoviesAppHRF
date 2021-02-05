@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.hafidrf.movieapp.movies">
+
+    <!--allow users to experience that feature without installation
+        feature is available when a user first downloads and installs the app-->
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="false"
+        dist:title="@string/title_movies">
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application>
+
+        <activity
+            android:name=".view.MovieActivity"
+            android:label="@string/title_activity_movies"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>

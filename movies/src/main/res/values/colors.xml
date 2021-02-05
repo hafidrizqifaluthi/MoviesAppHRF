@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_color">#66333133</color>
+    <color name="label_color">#676b73</color>
+    <color name="text_color">#d2d4d9</color>
+    <color name="imdb_color">#F6AC2F</color>
+</resources>

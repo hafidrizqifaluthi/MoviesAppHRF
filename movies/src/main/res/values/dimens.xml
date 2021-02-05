@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="label_width">100dp</dimen>
+    <dimen name="char_details_start_margin">10dp</dimen>
+    <dimen name="char_details_end_margin">10dp</dimen>
+    <dimen name="label_top_margin">8dp</dimen>
+</resources>

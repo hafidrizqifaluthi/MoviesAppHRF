@@ -1,0 +1,2 @@
+include ':app', ':movies'
+rootProject.name='MoviesAppHRF'
